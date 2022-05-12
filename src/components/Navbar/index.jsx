@@ -7,13 +7,14 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements'
+import logo from '../../images/logo.svg'
 
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLink to='/' >
-          <h1>Logo</h1>
+          <img src={logo} alt='logo' />
         </NavLink>
         <Bars />
         <NavMenu>

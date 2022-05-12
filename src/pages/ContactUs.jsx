@@ -10,8 +10,8 @@ const ContactUs = () => {
                 height: '90vh'
             }}
         >
-            <h1>ContactUs
-
+            <h1>
+                Contact Us
             </h1>
         </div>
     )
